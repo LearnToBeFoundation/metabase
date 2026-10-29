@@ -1,2 +1,2 @@
-FROM metabase/metabase:v0.65.2
+FROM metabase/metabase:latest
 COPY sparksql-databricks.metabase-driver.jar /plugins/
